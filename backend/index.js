@@ -34,5 +34,5 @@ app.use("/vehiculos", vehiculosRouter)
 app.use("/viajes", viajesRouter)
 
 app.listen(port, () => {
-  console.log(`La aplicación esta funcionando en el puerto ${port}`)
+  console.log(`La aplicación esta funcionando correctamente en el puerto ${port}`)
 })
