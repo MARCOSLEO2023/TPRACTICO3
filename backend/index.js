@@ -19,7 +19,7 @@ app.use(express.json())
 // Habilito CORS
 app.use(cors())
 
-authConfig()
+aut
 // Inicializo passport para que los middlewares funcionen
 app.use(passport.initialize())
 app.get("/", (req, res) => {
